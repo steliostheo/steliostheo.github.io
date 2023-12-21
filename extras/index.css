@@ -60,3 +60,13 @@ body {background-color: burlywood;}
     text-shadow: 2px 2px red;
     font-size: 70px;
 }
+.cred {
+    color: aliceblue;
+    cursor: context-menu;
+    transition-duration: 0.5s;
+    background-color: rgb(172, 142, 106);
+    border-radius: 20px;
+}
+.cred:hover {
+    color: black;
+}
