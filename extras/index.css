@@ -4,6 +4,7 @@ body {background-color: burlywood;}
     color: azure;
     border-radius: 5px;
     transition-duration: 0.5s;
+    cursor: context-menu;
 }
 .title:hover {
     background-color: rgb(0, 0, 0);
@@ -13,6 +14,7 @@ body {background-color: burlywood;}
 #yourcolor {
     visibility: hidden;
     transition-duration: 1s;
+    cursor: context-menu;
 }
 #copy {
     visibility: hidden;
@@ -37,4 +39,24 @@ body {background-color: burlywood;}
 #cp {
     border-radius: 10px;
     border-style: none;
+    cursor: pointer;
+}
+.choosecolor {
+    cursor: context-menu;
+    transition-duration: 1s;
+}
+.choosecolor:hover {
+    color: rgb(87, 87, 87);
+}
+#color {
+    transition-duration: 1s;
+    border-radius: 20px;
+    border-style: none;
+    background-color: azure;
+    text-shadow: 2px 2px white;
+}
+#color:hover {
+    border-radius: 10px;
+    text-shadow: 2px 2px red;
+    font-size: 70px;
 }

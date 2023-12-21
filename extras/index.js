@@ -4,6 +4,7 @@ function choose() {
     document.getElementById("copy").style.visibility = "visible";
     document.getElementById("reset").style.visibility = "visible";
     document.getElementById("title").style.color = document.getElementById("cp").value;
+    document.getElementById("color").style.backgroundColor = document.getElementById("cp").value;
 }
 function copy() {
     navigator.clipboard.writeText(document.getElementById("cp").value);
