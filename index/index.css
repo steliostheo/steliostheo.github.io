@@ -1,0 +1,64 @@
+BODY {background-color: burlywood;}
+.nav {
+    padding: 1px 100px;
+    position: fixed;
+    background-color: black;
+    border-radius: 20px;
+    border-style: none;
+}
+.commonbutton {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+    transition-duration: 0.4s;
+    background-color: rgb(119, 119, 119);
+}
+.homebutton {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+    background-color: cadetblue;
+    transition-duration: 0.4s;
+}
+.commonbutton:hover {
+    background-color: rgb(255, 123, 123);
+    text-shadow: 2px 2px rgb(119, 119, 119);
+}
+.homebutton:hover {
+    background-color: rgb(65, 4, 4);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: rgb(145, 130, 130);
+}
+#latest {
+    text-align: center;
+    background-color: black;
+    color: burlywood;
+    transition-duration: 1s;
+    border-radius: 30px;
+    border-style: none;
+    cursor: context-menu;
+}
+#latest:hover {
+    border-radius: 10px;
+    color: rgb(138, 138, 138);
+}
+#title {
+    cursor: context-menu;
+    transition-duration: 3s;
+    border-style: none;
+    background-color: burlywood;
+    border-radius: 100px;
+    padding: 1px 100px;
+    position: sticky;
+    border-width: 100px;
+}
+#title:hover {
+    color: rgb(109, 109, 109);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.footertext {
+    cursor: context-menu;
+}

@@ -1,0 +1,104 @@
+body {background-color: burlywood;}
+.title {
+    background-color: black;
+    color: azure;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    cursor: context-menu;
+}
+.title:hover {
+    background-color: rgb(0, 0, 0);
+    color: saddlebrown;
+    border-radius: 20px;
+}
+#yourcolor {
+    visibility: hidden;
+    transition-duration: 1s;
+    cursor: context-menu;
+}
+#copy {
+    visibility: hidden;
+    transition-duration: 1s;
+}
+#reset {
+    visibility: hidden;
+    transition-duration: 1s;
+}
+.btn {
+    padding: 15px 25px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(110, 110, 110);
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background-color: rgb(27, 27, 27);
+}
+#cp {
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+.choosecolor {
+    cursor: context-menu;
+    transition-duration: 1s;
+}
+.choosecolor:hover {
+    color: rgb(87, 87, 87);
+}
+#color {
+    transition-duration: 1s;
+    border-radius: 20px;
+    border-style: none;
+    background-color: azure;
+    text-shadow: 2px 2px white;
+}
+#color:hover {
+    border-radius: 10px;
+    text-shadow: 2px 2px red;
+    font-size: 70px;
+}
+.cred {
+    color: aliceblue;
+    cursor: context-menu;
+    transition-duration: 0.5s;
+    background-color: rgb(172, 142, 106);
+    border-radius: 20px;
+}
+.cred:hover {
+    color: black;
+}
+.nav {
+    padding: 2px 100px;
+    position: fixed;
+    background-color: black;
+    border-radius: 20px;
+    border-style: none;
+}
+.commonbutton {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+    transition-duration: 0.4s;
+    background-color: cadetblue;
+}
+.homebutton {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+    background-color: rgb(119, 119, 119);
+    transition-duration: 0.4s;
+}
+.commonbutton:hover {
+    background-color: rgb(255, 123, 123);
+    text-shadow: 2px 2px rgb(109, 109, 109);
+}
+.homebutton:hover {
+    background-color: rgb(65, 4, 4);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: rgb(145, 130, 130);
+}

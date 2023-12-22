@@ -1,31 +1,31 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="icon" type="ico/png" href="extras/color.png" />
+        <meta charset="UTF-8">
+        <link rel="icon" type="ico" href="colorpicker/extras/color.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="extras/index.css" />
-        <title>COLOR PICKER | STELIOSTHEO</title>
+        <link rel="stylesheet" type="text/css" href="index/index.css" />
+        <meta name="descripiton" content="STELIOSTHEO || COLOR PICKER" />
+        <title>HOME | STELIOSTHEO</title>
         <meta name="google-site-verification" content="Voi_e9kp3Qww3wylmoxDPbzBCe6hXs9-2R_o-WVhAmU" />
     </head>
     <body>
-        <script SRC="extras/index.js"></script>
-        <CENTER>
-        <H1 class="title" id="title">COLOR PICKER</H1>
-        <p>
-            <H2 class="choosecolor">CHOOSE COLOR:</H2>
-            <input id="cp" type="color"><p></p>
-            <input  class="btn" type="button" value="CHOOSE" id="choose" onclick="choose()"/>
-            <p id="yourcolor">YOUR COLOR IS:</p>
-            <h1 type="text" id="color"></h1>
-            <input  class="btn" type="button" value="COPY ON CLIPBOARD" id="copy" onclick="copy()"/><p> </p>
-            <input class="btn" type="button" value="RESET" id="reset" onclick="reset()"/>
-            <p>
-                <H3 CLASS="cred">STELIOS THEO 2023</H3>
-            </p>
-            <P>
-                <h2 CLASS="cred">THANK YOU!</h2>
-            </P>
-        </p>
-        </CENTER>
+        <nav class="nav">
+            <input class="homebutton" id="curbutton" type="button" value="HOME" onclick="window.location.href='index';"/>
+            <input id="navcp" type="button" class="commonbutton" value="COLOR PICKER" onclick="window.location.href='colorpicker/cp;" />
+        </nav>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <script SRC="index/index.js"></script>
+           <center></cernter> <p><h1 id="title" class="WELCOME"> WELCOME TO STELIOSTHEO </h1></p> </center>
+            <div id="latest">
+                 <center><p><h2 class="COLORPICKER">-COLOR PICKER-</h2></p></center>
+                <p><h3>A color picker simplifies the creative process, offering a spectrum of possibilities at your fingertips.
+                     With an easy interface, it becomes a portal to artistic expression, allowing users to effortlessly navigate and select hues that evoke emotions or convey messages.
+                      The color picker transforms complexity into simplicity, making every shade accessible and inspiring creativity.</h3></p>
+                <center><p><input class="commonbutton" type="button" value="MORE" onclick="window.location.href='colorpicker/cp.html';"></p></center>
+            </div>
+            <footer><h class="footertext">ALL RIGHT RESERVED COPYRIGHT 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h><A HREF="colorpicker/cp.html">-COLORPICKER-</A></footer>
     </body>
 </html>
