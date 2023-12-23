@@ -1,0 +1,149 @@
+body {background-color: burlywood;}
+
+.nav {
+    padding: 5px;
+    position: fixed;
+    background-color: black;
+    border-radius: 20px;
+    border-style: none;
+    width: 97%;
+}
+.commonbutton {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+    transition-duration: 0.4s;
+    background-color: rgb(119, 119, 119);
+}
+.homebutton {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+    background-color: rgb(119, 119, 119);
+    transition-duration: 0.4s;
+}
+.commonbutton:hover {
+    background-color: rgb(255, 123, 123);
+    text-shadow: 2px 2px rgb(109, 109, 109);
+}
+.homebutton:hover {
+    background-color: rgb(65, 4, 4);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: rgb(145, 130, 130);
+}
+.clbutton {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+    transition-duration: 0.4s;
+    background-color: cadetblue;
+}
+.clbutton:hover {
+    background-color: rgb(255, 123, 123);
+    text-shadow: 2px 2px rgb(119, 119, 119);
+}
+#clwithbtn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.numbtn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.elbtn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.numbtn:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+.elbtn {
+    background-color: rgb(94, 61, 1);
+}
+.elbtn:hover {
+    background-color: black;
+}
+#clbtn {
+   max-width: 500px;
+   overflow: hidden;
+   background-color: rgb(83, 83, 83);
+   border-radius: 20px;
+   visibility: hidden;
+}
+.display {
+    width: 90%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: right;
+    border-style: none;
+    background-color:  rgb(59, 59, 59);
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.elbtn:active {
+    width: 95px;
+    height: 95px;
+}
+.numbtn:active {
+    width: 95px;
+    height: 95px;
+}
+#clnobtn {
+    visibility: hidden;
+}
+#display2 {
+    width: 90%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: right;
+    border-style: none;
+    background-color:  rgb(59, 59, 59);
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#refresh {
+    visibility: hidden;
+}
+.title {
+    width: 50%;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: black;
+    color: burlywood;
+    transition-duration: 1s;
+
+}
+.title:hover {
+    border-radius: 10px;
+    background-color: burlywood;
+    color: black;
+    border-style: solid;
+    border-color: black;
+}

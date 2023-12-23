@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <link rel="icon" type="ico/png" href="extras/color.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="extras/index.css" />
+        <title>CALCULATOR | STELIOSTHEO</title>
+        <meta name="google-site-verification" content="Voi_e9kp3Qww3wylmoxDPbzBCe6hXs9-2R_o-WVhAmU" />
+    </head>
+    <body>
+        <nav class="nav">
+            <input class="homebutton" id="curbutton" type="button" value="HOME" onclick="window.location.href='../index.html';"/>
+            <input id="navcp" type="button" class="commonbutton" value="COLOR PICKER" onclick="window.location.href='../colorpicker/cp.html';" />
+            <input id="navcp" type="button" class="clbutton" value="CALCULATOR" onclick="window.location.href='cl.html';" />
+        </nav>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        
+        <CENTER>
+            <p><H1 class="title">CALCULATOR</H1></p>
+            <p><button onclick="refresh()" id="refresh" class="commonbutton">CHANGE TYPE</button></p>
+            <button onclick="showclbtn()" id="chcl1" CLASS="commonbutton">CALCULATOR WITH BUTTONS</button> <button id="chcl2" CLASS="commonbutton" onclick="showclnobtn()">CALCULATOR WITHOUT BUTTONS</button>
+            <p>&nbsp;</p>
+            <div id="clnobtn">
+                <input type="text" id="display2"><button CLASS="commonbutton" onclick="equals2()">=</button>
+            </div>
+            <div id="clbtn">
+            <p><input class="display" id="display" type="text" readonly></p>
+            <div id="clwithbtn">
+                <button class="elbtn" onclick="C()" >C</button>
+                <button class="numbtn" onclick="appendtodisplay('7')" >7</button>
+                <button class="numbtn" onclick="appendtodisplay('8')" >8</button>
+                <button class="numbtn" onclick="appendtodisplay('9')" >9</button>
+                <button class="elbtn" onclick="appendtodisplay('+')" >+</button>
+                <button class="numbtn" onclick="appendtodisplay('4')" >4</button>
+                <button class="numbtn" onclick="appendtodisplay('5')" >5</button>
+                <button class="numbtn" onclick="appendtodisplay('6')" >6</button>
+                <button class="elbtn" onclick="appendtodisplay('-')" >-</button>
+                <button class="numbtn" onclick="appendtodisplay('1')" >1</button>
+                <button class="numbtn" onclick="appendtodisplay('2')" >2</button>
+                <button class="numbtn" onclick="appendtodisplay('3')" >3</button>
+                <button class="elbtn" onclick="appendtodisplay('/')" >/</button>
+                <button class="elbtn" onclick="appendtodisplay('*')" >*</button>
+                <button class="elbtn" onclick="appendtodisplay('.')" >.</button>
+                <button class="elbtn" onclick="equals()" >=</button>
+            </div>
+            </div>
+            
+        </p><script SRC="extras/index.js"></script>
+        </CENTER>
+    </body>
+</html>
